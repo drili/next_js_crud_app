@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { BiUserPlus } from 'react-icons/bi'
+import Table from '../components/table'
 
 export default function Home() {
     return (
@@ -17,11 +18,14 @@ export default function Home() {
                     <div className="left flex gap-3">
                         <button className="flex bg-indigo-500 text-white px-4 py-2 border rounded-md hover:bg-gray-50 hover:border-indigo-500 hover:text-indigo-500">Add Employee <span className="px-1"><BiUserPlus size={23}></BiUserPlus></span></button>
                     </div>
+
+                    {/* --- Collapsable form */}
                 </div>
 
-                {/* --- Collapsable form */}
-
                 {/* --- Table */}
+                <div className="container mx-auto">
+                    <Table></Table>
+                </div>
             </main>
         </section>
     )
