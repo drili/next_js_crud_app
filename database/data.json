@@ -1,0 +1,38 @@
+[
+    {
+        "id" : 1,
+        "name" : "Bob Marley",
+        "avatar" : "https://randomuser.me/api/portraits/men/1.jpg",
+        "email" : "bobmarley@gmail.com",
+        "salary" : "21000",
+        "date" : "2022-01-01",
+        "status" : "Active"
+    },
+    {
+        "id" : 2,
+        "name" : "Bob Marley 2",
+        "avatar" : "https://randomuser.me/api/portraits/men/2.jpg",
+        "email" : "bobmarley2@gmail.com",
+        "salary" : "22000",
+        "date" : "2022-01-02",
+        "status" : "Inactive"
+    },
+    {
+        "id" : 3,
+        "name" : "Bob Marley 3",
+        "avatar" : "https://randomuser.me/api/portraits/men/3.jpg",
+        "email" : "bobmarley3@gmail.com",
+        "salary" : "23000",
+        "date" : "2022-01-03",
+        "status" : "Active"
+    },
+    {
+        "id" : 4,
+        "name" : "Bob Marley 4",
+        "avatar" : "https://randomuser.me/api/portraits/men/4.jpg",
+        "email" : "bobmarley4@gmail.com",
+        "salary" : "24000",
+        "date" : "2022-01-04",
+        "status" : "Inactive"
+    }
+]
