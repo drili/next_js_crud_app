@@ -12,6 +12,22 @@ export async function getUsers(req, res) {
     }
 }
 
+export async function getUser(req, res) {
+    try {
+        // http://localhost:3000/api/users/[userId]
+        const { userId } = req.query
+
+        if (userId) {
+            const user = await Users.findById(userId)
+            res.status(200).json(user)
+        }
+
+        res.status(404).json({ error: "::: User not selected."})
+    } catch (error) {
+        res.status(404).json({ error: "::: [GET] Error while fetching user data." })
+    }
+}
+
 // - POST
 export async function postUser(req, res) {
     try {
